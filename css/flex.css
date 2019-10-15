@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eeeeee;
+}
+
+.title {
+  background: #333333;
+  display: flex;
+  justify-content: center;
+}
+
+.title h1 {
+  font-family: serif;
+  font-size: 2rem;
+  padding: 1.4rem;
+  color: azure;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  height: 300px;
+}
+
+.intro .text {
+}
+
+.text p {
+  width: 400px;
+}
+
+.intro img {
+  width: 400px;
+}
