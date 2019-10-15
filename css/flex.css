@@ -35,7 +35,7 @@ nav h1 {
   padding: 10px;
 }
 .banner p {
-  padding: 10px;
+  padding: 5px 10px;
 }
 
 .banner img {
@@ -64,7 +64,6 @@ nav h1 {
     display: flex;
     justify-content: center;
     flex: 1;
-    margin: 20px;
   }
 
   .banner .text {
@@ -82,6 +81,7 @@ nav h1 {
   }
 
   .main .content {
+    width: 400px;
     margin: 20px;
   }
 
