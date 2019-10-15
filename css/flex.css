@@ -21,19 +21,27 @@ body {
 }
 
 .intro {
-  display: flex;
   text-align: center;
-  justify-content: center;
-  flex: 1;
   height: 300px;
-  padding: 20px;
+  padding: 30px;
 }
 
 .intro .text {
-  margin-right: 30px;
   width: 400px;
 }
 
 .intro img {
   width: 400px;
+}
+
+@media screen and (min-width: 732px) {
+  .intro {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+  }
+
+  .intro .text {
+    margin-right: 20px;
+  }
 }
