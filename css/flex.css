@@ -22,15 +22,15 @@ body {
 
 .intro {
   display: flex;
+  text-align: center;
   justify-content: center;
   flex: 1;
   height: 300px;
+  padding: 20px;
 }
 
 .intro .text {
-}
-
-.text p {
+  margin-right: 30px;
   width: 400px;
 }
 
